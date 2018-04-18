@@ -36,6 +36,15 @@
             @Html.DisplayFor(model => model.Location.LocationId)
         </dd>
     </dl>
+    <ul>
+    @foreach (var person in Model.People)
+    {
+        <li>
+            @person.Name                
+        </li>
+
+    }
+    </ul>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model.ExperienceId">Edit</a> |

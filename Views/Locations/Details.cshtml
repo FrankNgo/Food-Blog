@@ -10,26 +10,20 @@
 <div>
     <h4>Location</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Price)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Price)
-        </dd>
-        <dt>
-            @Html.DisplayNameFor(model => model.Address)
-        </dt>
-        <dd>
-            @Html.DisplayFor(model => model.Address)
-        </dd>
-    </dl>
+    
+    <ul class="detail-list">
+        <li class="detail-top"><span class="detail-top-value">@Html.DisplayNameFor(model => model.Name):</span>  @Html.DisplayFor(model => model.Name) |</li>
+        <li class="detail-top"><span class="detail-top-value">@Html.DisplayNameFor(model => model.Price):</span> @Html.DisplayFor(model => model.Price) |</li>
+        <li class="detail-top"><span class="detail-top-value">@Html.DisplayNameFor(model => model.Address):</span> @Html.DisplayFor(model => model.Address) |</li>
+    </ul>
+   
+    @foreach (var experience in Model.Experiences)
+    {
+        <li>
+            @experience.Title
+        </li>
+
+    }
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model.LocationId">Edit</a> |

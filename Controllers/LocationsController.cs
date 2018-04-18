@@ -33,6 +33,7 @@ namespace FoodBlog.Controllers
             }
 
             var location = await _context.Locations
+                 .Include(e => e.Experiences)
                 .SingleOrDefaultAsync(m => m.LocationId == id);
             if (location == null)
             {

@@ -35,6 +35,7 @@ namespace FoodBlog.Controllers
 
             var experience = await _context.Experiences
                 .Include(e => e.Location)
+                .Include(p => p.People)
                 .SingleOrDefaultAsync(m => m.ExperienceId == id);
             if (experience == null)
             {
@@ -47,7 +48,7 @@ namespace FoodBlog.Controllers
         // GET: Experiences/Create
         public IActionResult Create()
         {
-            ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "LocationId");
+            ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "Name");
             return View();
         }
 
@@ -81,7 +82,7 @@ namespace FoodBlog.Controllers
             {
                 return NotFound();
             }
-            ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "LocationId", experience.LocationId);
+            ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "Name", experience.LocationId);
             return View(experience);
         }
 

@@ -81,7 +81,7 @@ namespace FoodBlog.Controllers
             {
                 return NotFound();
             }
-            ViewData["ExperienceId"] = new SelectList(_context.Experiences, "ExperienceId", "ExperienceId", person.ExperienceId);
+            ViewData["ExperienceId"] = new SelectList(_context.Experiences, "ExperienceId", "Title", person.ExperienceId);
             return View(person);
         }
 

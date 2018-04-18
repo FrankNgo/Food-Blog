@@ -1,9 +1,12 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<div class="home-page">
+    <div >
+    <img class="frontImage" src="https://kelleychisholm.files.wordpress.com/2012/12/portland-food-trucks.jpg" alt="Alternate Text" />
+    </div>
 
-<h1>Food Blog</h1>
-
-@Html.ActionLink("Experiences", "Index", "Experiences") |
-@Html.ActionLink("Locations", "Index", "Locations") |
-@Html.ActionLink("People", "Index", "People") |
+    @Html.ActionLink("Locations", "Index", "Locations") |
+    @Html.ActionLink("Experiences", "Index", "Experiences") |
+    @Html.ActionLink("People", "Index", "People")
+</div>

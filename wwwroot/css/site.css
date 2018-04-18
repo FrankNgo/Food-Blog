@@ -35,3 +35,39 @@ textarea {
         display: none;
     }
 }
+
+
+.detail-top {
+    font-size: 1.3em;
+}
+
+.detail-top-value {
+    font-size: 1.4em;
+}
+
+.detail-list li {
+    display: inline;
+    list-style: none;
+}
+
+
+.frontImage {
+    width: 100%;
+}
+
+body {
+    
+}
+
+/*body::after {
+    content: "";
+    background-image: url('../images/1933Map.jpg');
+    background-size: cover;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}*/
