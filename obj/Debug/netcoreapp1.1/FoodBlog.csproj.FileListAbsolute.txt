@@ -1,0 +1,11 @@
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\bin\Debug\netcoreapp1.1\FoodBlog.deps.json
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\bin\Debug\netcoreapp1.1\FoodBlog.runtimeconfig.json
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\bin\Debug\netcoreapp1.1\FoodBlog.runtimeconfig.dev.json
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\bin\Debug\netcoreapp1.1\FoodBlog.dll
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\bin\Debug\netcoreapp1.1\FoodBlog.pdb
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\obj\Debug\netcoreapp1.1\FoodBlog.csprojResolveAssemblyReference.cache
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\obj\Debug\netcoreapp1.1\FoodBlog.csproj.CoreCompileInputs.cache
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\obj\Debug\netcoreapp1.1\FoodBlog.AssemblyInfoInputs.cache
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\obj\Debug\netcoreapp1.1\FoodBlog.AssemblyInfo.cs
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\obj\Debug\netcoreapp1.1\FoodBlog.dll
+C:\Users\epicodus\source\repos\FoodBlog\FoodBlog\obj\Debug\netcoreapp1.1\FoodBlog.pdb

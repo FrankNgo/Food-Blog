@@ -11,10 +11,10 @@ namespace FoodBlog.Models
     public class Person
     {
         [Key]
-        public int personId { get; set; }
-        public string name { get; set; }
-        public string desc { get; set; }
-        public int  experienceId { get; set; }
+        public int PersonId { get; set; }
+        public string Name { get; set; }
+        public string Desc { get; set; }
+        public int  ExperienceId { get; set; }
         public virtual Experience Experience { get; set; }
     }
 }

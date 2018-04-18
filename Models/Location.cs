@@ -11,10 +11,10 @@ namespace FoodBlog.Models
     public class Location
     {
         [Key]
-        public int locaitonId { get; set; }
-        public string name { get; set; }
-        public string price { get; set; }
-        public string location { get; set; }
+        public int LocationId { get; set; }
+        public string Name { get; set; }
+        public string Price { get; set; }
+        public string Address { get; set; }
         public virtual ICollection<Experience> Experiences { get; set; }
 
     }

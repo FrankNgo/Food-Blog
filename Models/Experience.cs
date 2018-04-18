@@ -13,9 +13,9 @@ namespace FoodBlog.Models
     {
         [Key]
         public int ExperienceId { get; set; }
-        public string title { get; set; }
-        public string description { get; set; }
-        public DateTime date { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public DateTime Date { get; set; }
         public int LocationId { get; set; }
         public virtual Location Location { get; set; }
         public virtual ICollection<Person> People { get; set; }
